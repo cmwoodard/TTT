@@ -1,0 +1,8 @@
+#Win condition
+Possibly create a list of winners IE in 
+123
+456
+789
+
+Win conditions are 123, 456,789, 147,258,369, 159 and 753
+push the selected number onto the player's board status and use check if player's array contains all 3 of any of these
