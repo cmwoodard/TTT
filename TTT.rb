@@ -78,6 +78,11 @@ while quit_game == false
 			board.show_board
 			puts "#{current_player.name} wins!"
 			quit_game = true
+			
+		elsif player1.state.length==5
+			board.show_board
+			puts "It's a TIE."
+			quit_game = true
 		end		
 	end
 	
